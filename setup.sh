@@ -123,7 +123,7 @@ kubectl create secret generic federation-apiserver-kubeconfig \
   --from-file=kubeconfigs/federation-apiserver/kubeconfig
 
 # should be a parameter
-export DNS_ZONE_NAME=appietomorrow.nl
+export DNS_ZONE_NAME=oguzpastirmaci.com
 
 #has to be empty for Azure DNS
 export DNS_ZONE_ID=
